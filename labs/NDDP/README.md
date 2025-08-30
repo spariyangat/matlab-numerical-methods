@@ -1,4 +1,4 @@
-# Lab 05 — NDDP (Newton’s Divided Difference Interpolation)
+# NDDP (Newton’s Divided Difference Interpolation)
 
 Interpolates `y(x_t)` from unevenly spaced data using Newton’s divided differences to a user-specified tolerance.
 

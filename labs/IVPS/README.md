@@ -14,6 +14,6 @@ Numerically integrates a system of first-order ODEs using **Adams–Bashforth–
 - ABM4 predictor–corrector advances remaining steps, storing only final (converged) states
 
 **Outputs**
-- Writes full time history to `PariyangatS_timetrace.csv` with columns `[t, y1, y2, …]`
+- Writes full time history with columns `[t, y1, y2, …]` using writematrix
 - Plots each state vs. time in its own figure titled `Var1`, `Var2`, …
 

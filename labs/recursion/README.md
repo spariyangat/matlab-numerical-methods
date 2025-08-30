@@ -1,4 +1,4 @@
-# Lab 06 — Recursive Gaussian Elimination
+# Recursive Gaussian Elimination
 
 Solves `A x = b` using a **recursive** implementation of Gaussian elimination with **partial pivoting**.
 

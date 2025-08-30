@@ -1,4 +1,4 @@
-# Lab 04 — Root Finding
+# Root Finding
 
 MATLAB implementations of four nonlinear solvers:
 

@@ -1,2 +1,3 @@
 # matlab-numerical-methods
-A collection of projects/labs I did for a numerical methods course in my sophmore year
+A concise collection of MATLAB numerical methods labs from a sophomore-year course: root finding, Newton divided-difference interpolation, recursive Gaussian elimination, LU decomposition, and IVP solvers (RK4/ABM).
+

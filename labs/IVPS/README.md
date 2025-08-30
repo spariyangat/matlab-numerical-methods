@@ -1,6 +1,6 @@
 # ABM4 IVP Solver (RK4-seeded)
 
-Numerically integrates a system of first-order ODEs using **Adams–Bashforth–Moulton (4th order)** with **RK4** used to seed the necessary initial history.
+Numerically integrates a system of first-order ODEs using **Adams–Bashforth–Moulton (4th order)** with **Runge Kutta (4th order)** used to seed the necessary initial history.
 
 **Inputs**
 - Cell array of `dy/dt` function handles (one per state, ordered)

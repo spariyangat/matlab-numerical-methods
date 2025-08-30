@@ -1,6 +1,6 @@
 # ABM4 IVP Solver (RK4-seeded)
 
-Numerically integrates a system of first-order ODEs using **Adams–Bashforth–Moulton (4th order)** with **RK4** used only to seed the initial history.
+Numerically integrates a system of first-order ODEs using **Adams–Bashforth–Moulton (4th order)** with **RK4** used to seed the necessary initial history.
 
 **Inputs**
 - Cell array of `dy/dt` function handles (one per state, ordered)
@@ -14,6 +14,6 @@ Numerically integrates a system of first-order ODEs using **Adams–Bashforth–
 - ABM4 predictor–corrector advances remaining steps, storing only final (converged) states
 
 **Outputs**
-- Writes full time history to `LastnameFirstinit_timetrace.csv` with columns `[t, y1, y2, …]`
+- Writes full time history to `PariyangatS_timetrace.csv` with columns `[t, y1, y2, …]`
 - Plots each state vs. time in its own figure titled `Var1`, `Var2`, …
-- Returns: none
+
